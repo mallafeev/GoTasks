@@ -1,0 +1,25 @@
+Решил сюда сохранить с консольки вывод насчёт покрытия. Файл создан вручную:
+C:\GitHubMain\GoTasks\task3>go test -v -coverprofile=coverage_stack.out ./stack
+=== RUN   TestNewStackIsEmpty
+--- PASS: TestNewStackIsEmpty (0.00s)
+=== RUN   TestStackPushSingle
+--- PASS: TestStackPushSingle (0.00s)
+=== RUN   TestStackPushMultiple
+--- PASS: TestStackPushMultiple (0.00s)
+=== RUN   TestStackPop
+--- PASS: TestStackPop (0.00s)
+=== RUN   TestStackPeek
+--- PASS: TestStackPeek (0.00s)
+=== RUN   TestStackPushOnFull
+--- PASS: TestStackPushOnFull (0.00s)
+=== RUN   TestStackPopOnEmpty
+--- PASS: TestStackPopOnEmpty (0.00s)
+=== RUN   TestStackPeekOnEmpty
+--- PASS: TestStackPeekOnEmpty (0.00s)
+=== RUN   TestStackSize
+--- PASS: TestStackSize (0.00s)
+=== RUN   TestStackWithBool
+--- PASS: TestStackWithBool (0.00s)
+PASS
+coverage: 100.0% of statements
+ok      task3/stack     1.245s  coverage: 100.0% of statements

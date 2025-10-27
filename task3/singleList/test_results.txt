@@ -1,0 +1,31 @@
+Решил сюда сохранить с консольки вывод насчёт покрытия. Файл создан вручную:
+C:\GitHubMain\GoTasks\task3>go test -v -coverprofile=coverage_list.out ./singleList
+=== RUN   TestNewListIsEmpty
+--- PASS: TestNewListIsEmpty (0.00s)
+=== RUN   TestListAddSingle
+--- PASS: TestListAddSingle (0.00s)
+=== RUN   TestListAddMultiple
+--- PASS: TestListAddMultiple (0.00s)
+=== RUN   TestListGet
+--- PASS: TestListGet (0.00s)
+=== RUN   TestListGetInvalidIndex
+--- PASS: TestListGetInvalidIndex (0.00s)
+=== RUN   TestListRemoveOnlyElement
+--- PASS: TestListRemoveOnlyElement (0.00s)
+=== RUN   TestListRemoveFirst
+--- PASS: TestListRemoveFirst (0.00s)
+=== RUN   TestListRemoveLast
+--- PASS: TestListRemoveLast (0.00s)
+=== RUN   TestListRemoveMiddle
+--- PASS: TestListRemoveMiddle (0.00s)
+=== RUN   TestListRemoveInvalidIndex
+--- PASS: TestListRemoveInvalidIndex (0.00s)
+=== RUN   TestListValues
+--- PASS: TestListValues (0.00s)
+=== RUN   TestListValuesEmpty
+--- PASS: TestListValuesEmpty (0.00s)
+=== RUN   TestListWithFloat
+--- PASS: TestListWithFloat (0.00s)
+PASS
+coverage: 100.0% of statements
+ok      task3/singleList        1.227s  coverage: 100.0% of statements

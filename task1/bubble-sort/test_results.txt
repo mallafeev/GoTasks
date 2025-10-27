@@ -1,0 +1,3 @@
+Решил сюда сохранить с консольки вывод насчёт покрытия. Файл создан вручную:
+C:\GitHubMain\GoTasks\task1\bubble-sort>go test -coverprofile=coverage_bubble.out .
+ok      task1/bubble-sort       1.210s  coverage: 55.6% of statements

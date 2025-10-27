@@ -1,0 +1,15 @@
+mode: set
+task3/queue/queue.go:9.37,16.2 1 1
+task3/queue/queue.go:19.30,20.32 1 1
+task3/queue/queue.go:20.32,21.49 1 1
+task3/queue/queue.go:23.2,23.17 1 1
+task3/queue/queue.go:23.17,26.3 2 1
+task3/queue/queue.go:26.8,28.3 1 1
+task3/queue/queue.go:29.2,29.17 1 1
+task3/queue/queue.go:34.28,35.17 1 1
+task3/queue/queue.go:35.17,36.37 1 1
+task3/queue/queue.go:38.2,39.21 2 1
+task3/queue/queue.go:39.21,42.3 2 1
+task3/queue/queue.go:42.8,44.3 1 1
+task3/queue/queue.go:45.2,45.14 1 1
+task3/queue/queue.go:49.35,51.2 1 1

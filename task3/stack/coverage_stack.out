@@ -1,0 +1,13 @@
+mode: set
+task3/stack/stack.go:8.37,13.2 1 1
+task3/stack/stack.go:16.30,17.26 1 1
+task3/stack/stack.go:17.26,18.41 1 1
+task3/stack/stack.go:20.2,21.17 2 1
+task3/stack/stack.go:25.28,26.18 1 1
+task3/stack/stack.go:26.18,27.29 1 1
+task3/stack/stack.go:29.2,31.14 3 1
+task3/stack/stack.go:35.29,36.18 1 1
+task3/stack/stack.go:36.18,37.29 1 1
+task3/stack/stack.go:39.2,39.20 1 1
+task3/stack/stack.go:43.35,45.2 1 1
+task3/stack/stack.go:48.31,50.2 1 1

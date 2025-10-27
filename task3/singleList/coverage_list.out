@@ -1,0 +1,24 @@
+mode: set
+task3/singleList/singleList.go:14.28,20.2 1 1
+task3/singleList/singleList.go:23.28,28.17 2 1
+task3/singleList/singleList.go:28.17,31.3 2 1
+task3/singleList/singleList.go:31.8,34.3 2 1
+task3/singleList/singleList.go:35.2,35.10 1 1
+task3/singleList/singleList.go:39.34,40.30 1 1
+task3/singleList/singleList.go:40.30,41.50 1 1
+task3/singleList/singleList.go:43.2,44.27 2 1
+task3/singleList/singleList.go:44.27,46.3 1 1
+task3/singleList/singleList.go:47.2,47.18 1 1
+task3/singleList/singleList.go:51.35,52.30 1 1
+task3/singleList/singleList.go:52.30,53.50 1 1
+task3/singleList/singleList.go:56.2,56.14 1 1
+task3/singleList/singleList.go:56.14,58.18 2 1
+task3/singleList/singleList.go:58.18,60.4 1 1
+task3/singleList/singleList.go:61.8,63.30 2 1
+task3/singleList/singleList.go:63.30,65.4 1 1
+task3/singleList/singleList.go:66.3,68.25 3 1
+task3/singleList/singleList.go:68.25,70.4 1 1
+task3/singleList/singleList.go:73.2,73.10 1 1
+task3/singleList/singleList.go:77.32,80.30 3 1
+task3/singleList/singleList.go:80.30,83.3 2 1
+task3/singleList/singleList.go:84.2,84.15 1 1

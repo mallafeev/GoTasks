@@ -1,0 +1,19 @@
+Решил сюда сохранить с консольки вывод насчёт покрытия. Файл создан вручную:
+C:\GitHubMain\GoTasks\task3>go test -v -coverprofile=coverage.out ./queue
+=== RUN   TestNewQueueIsEmpty
+--- PASS: TestNewQueueIsEmpty (0.00s)
+=== RUN   TestQueuePushPopSingle
+--- PASS: TestQueuePushPopSingle (0.00s)
+=== RUN   TestQueueFIFO
+--- PASS: TestQueueFIFO (0.00s)
+=== RUN   TestQueueCircular
+--- PASS: TestQueueCircular (0.00s)
+=== RUN   TestQueuePushOnFull
+--- PASS: TestQueuePushOnFull (0.00s)
+=== RUN   TestQueuePopOnEmpty
+--- PASS: TestQueuePopOnEmpty (0.00s)
+=== RUN   TestQueueWithFloat
+--- PASS: TestQueueWithFloat (0.00s)
+PASS
+coverage: 100.0% of statements
+ok      task3/queue     (cached)        coverage: 100.0% of statements
