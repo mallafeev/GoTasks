@@ -1,0 +1,20 @@
+PS C:\GitHubMain\GoTasks\task6> go run main.go
+=== ТЕСТИРОВАНИЕ ПОВЕДЕНИЯ КАНАЛОВ В GO ===
+1. ТЕСТИРУЕМ NIL CHANNEL:
+   [NilChannel] close() вызвал panic: close of nil channel
+
+==================================================
+
+2. ТЕСТИРУЕМ CLOSED CHANNEL:
+   [ClosedChannel] получено: 10, ok=true
+   [ClosedChannel] close() вызвал panic: close of closed channel
+   [ClosedChannel] send() вызвал panic: send on closed channel
+
+==================================================
+
+3. ТЕСТИРУЕМ NORMAL CHANNEL:
+   [NormalChannel] отправлено: 100
+   [NormalChannel] получено: 100
+   [NormalChannel] канал успешно закрыт
+   [NormalChannel] после закрытия: 200, ok=true
+PS C:\GitHubMain\GoTasks\task6> 
