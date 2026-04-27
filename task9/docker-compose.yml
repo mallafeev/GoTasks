@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: people
+    ports:
+      - "5432:5432"
+    volumes:
+    - ./migrations/0001_init.up.sql:/docker-entrypoint-initdb.d/init.sql
+
+  api:
+    build: .
+    depends_on:
+      - db
+    environment:
+      DB_DSN: "postgres://postgres:postgres@db:5432/people?sslmode=disable"
+    ports:
+      - "8080:8080"
